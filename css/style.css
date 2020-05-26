@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Playfair Display', serif;
+    src: url(https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;900&display=swap);
+}
+*{
+    font-family: 'Playfair Display', serif; 
+}
+
+
+/*header*/
+.header{
+    padding: 30px 0;
+    border-bottom: 2px solid #e5e5e5;
+}
+.menu ul li{
+    padding: 0 0 0 20px;
+
+}
+.menu ul li a{
+    font-size: 14;
+    font-weight: 500;
+    color: #626262;
+    text-transform: uppercase;
+}
+
+/*banner*/
+.banner{
+    padding: 40px 0;
+}
+.banner img{
+    width:100%;
+    margin-top: 15px;
+    padding: 0 1rem;
+}
+
+/*comment*/
+.comment{
+    padding: 40px 0;
+}
+.comment h2{
+    font-size: 30px;
+    font-weight: 500;
+    color: #626262 !important;
+    padding: 15px 0;
+}
+.comment h5{
+    font-size: 14;
+    text-transform: uppercase;
+    color: #b4ad9e;
+}
+.comment p {
+    font-size: 14;
+    color: #626262;
+    text-align: justify;
+}
+
+/*gallery*/
+.gallery{
+    padding: 40px 0;
+}
+.gallery-content{
+    padding: 0 0;
+    margin: 0 0 0 0;
+}
+.gallery-content img{
+    padding: 0 0 40px;
+    width: 100%;
+}
+.gallery-content h2{
+    font-size: 30px;
+    font-weight: 500;
+    color: #626262 !important;
+    padding: 15px 0;
+}
+.gallery-content h5{
+    font-size: 14;
+    text-transform: uppercase;
+    color: #b4ad9e;
+}
+.gallery-content p {
+    font-size: 14;
+    color: #626262;
+    text-align: justify;
+}
+.p-custom{
+    margin-top: 80px;
+}
+/* sign-up*/
+.sign-up{
+    background-color: #e1e1e1;
+    margin: 40px 0;
+    padding: 20px 0 35px 0;
+}
+.sign-up h2{
+    font-size: 30px;
+    font-weight: 500;
+    color: #333333 !important;
+    padding: 15px 0 0 0;
+    text-align: center;
+}
+.input-group{
+    border-bottom: 2px solid;
+}
+.form-custom{
+    border: none;    
+    background-color: transparent;
+}
+.input-group-text{
+    border: none;    
+    background-color: transparent;
+}
+
+
+.btn-custom{
+    font-size: 20px;
+    color: #626262;
+    border: 1px solid #626262;
+    border-radius: 0;
+    padding: 6px 30px;
+}
+
+/* footer */
+.terms-custom li a{
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+}
+.terms-custom1 li a{
+    font-size: 14px;
+    color: #626262;
+    text-decoration: none;
+}
